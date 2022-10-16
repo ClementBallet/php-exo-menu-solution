@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+img.logo {
+    width: 200px;
+}
+
+.menu-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-header ul li + li {
+    margin-left: 20px;
+}
+
+.menu-header ul li a {
+    text-transform: uppercase;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.menu-header ul li.active a {
+    color: black;
+}
+
+.menu-header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 10%;
+    display: flex;
+}
+
+main article {
+    width: 80%;
+}
+
+main article img {
+    width: 100%;
+}
+
+main aside {
+    padding: 20px;
+    width: 20%;
+}
+
+main aside ul {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 10%;
+}
+
+.menu-footer ul > :first-child {
+    margin-bottom: 20px;
+}
+
+.menu-footer ul li {
+    margin-left: 20px;
+}
+
+.menu-footer ul li + li {
+    margin-top: 10px;
+}
+
+.menu-footer ul li a {
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-footer ul li a:hover {
+    text-decoration: underline;
+}
